@@ -3,19 +3,12 @@
 A norns mod that lets you use several USB crows at once. It only changes Lua, so
 matron and the C code stay as they are. It was written against monome/norns @ 227aa04.
 
-matron already creates one device per crow. Only the Lua layer in
-`lua/core/crow.lua` limits norns to one crow. This mod replaces
+Matron already creates one device per crow. This mod patches
 `_norns.crow.add/remove/event` with versions that track every crow, each with its
 own line buffer and its own event table.
 
-## install
+Currently the first crow that is found is the one which can be clock input. Will add more control later. 
 
-Copy or clone this folder to `~/dust/code/murder`. Then go to SYSTEM > MODS,
-enable `murder`, and restart.
-
-norns names a mod after its folder, so the folder has to be called `murder`. For
-example: `git clone <repo> ~/dust/code/murder`. Saved slots always go in
-`~/dust/data/murder`, whatever the folder is called.
 
 ## script api
 
