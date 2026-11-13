@@ -1,5 +1,7 @@
 # murder
 
+<img width="2000" height="1500" alt="IMG_9628" src="https://github.com/user-attachments/assets/9cd183a0-f3a8-45f5-bff9-566bec80c896" />
+
 A norns mod that lets you use several USB crows at once. It only changes Lua, so
 matron and the C code stay as they are. It was written against monome/norns @ 227aa04.
 
